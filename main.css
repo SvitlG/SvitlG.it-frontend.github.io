@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+
+	color: #fefefe;
+	font-size: 10vw;
+	font-family: "Roboto Slab";
+	font-weight: 400;
+	background: linear-gradient(330deg,  #cfe21f 0%, #7dec15d8 20%,  #1a73e8 40%, #fa570b 60%, #f537cc 80%,  #0739ffef 100% );
+	background-clip: text;
+  -webkit-background-clip: text;
+    color: transparent;
+    line-height: 200px;
+}
